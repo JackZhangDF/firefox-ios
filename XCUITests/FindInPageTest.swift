@@ -15,6 +15,7 @@ class FindInPageTests: BaseTestCase {
 
     func testFindInLargeDoc() {
         userState.url = "http://localhost:6571/find-in-page-test.html"
+        sleep(1)
         openFindInPageFromMenu()
 
         // Enter some text to start finding
